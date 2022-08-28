@@ -64,7 +64,7 @@ android {
         debug {
             applicationIdSuffix ".debug"
             manifestPlaceholders = [
-                title: "AegisDev",
+                title: "Rodolfo's Authenticator",
                 iconName: "ic_launcher_debug",
                 fileProviderAuthority: "${fileProviderAuthorityDebug}"
             ]
@@ -73,7 +73,7 @@ android {
         }
         release {
             manifestPlaceholders = [
-                title: "Aegis",
+                title: "Rodolfo's Authenticator",
                 iconName: "ic_launcher",
                 fileProviderAuthority: "${fileProviderAuthority}"
             ]
